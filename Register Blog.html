@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{background-image: url('Multi.jpg');}
+        .myClass{position:relative;font-weight: bold;text-align: center; 
+                 font-size: 40px;font-style: Verdana;}
+    </style>
+</head>
+<body>
+
+    <a href='Home.html' style="color: purple;font-style: bold;font-family: Verdana;font-size: 16px;">
+        Start Here </a>  
+        &nbsp;&nbsp;&nbsp;&nbsp; 
+
+
+    <a href='About Us.html' style="color: purple;font-style: bold;font-family: Verdana;font-size: 16px;">
+        About Us </a>  
+        &nbsp;&nbsp;&nbsp;&nbsp; 
+        <a href='Contact Us.html' style="color:purple;font-style: bold ;font-family: Verdana;font-size: 16px;">
+            Contact Us  </a>  &nbsp;&nbsp;
+    
+    <script src="MenuApp.js"></script>
+
+    <div class="myClass">
+          <p> Publish your Experiences and Suggestions, your way</p>
+          <p>It's easy and free.</p>
+         </div>
+
+
+
+
+<!--- Form Creation-->
+<form name="form1" class="myClass">
+    <textarea name="details" id="details" cols="59" rows="10" style="background-color:thistle;
+              font-family: Verdana;font-size:medium;font-weight:bold;text-align:center" >
+      Enter Your Text Here!!</textarea>  <br>
+    
+    <input type="button" value="Register Your Blog Here " onClick="onFormSubmit()" style="font-weight: bold;">
+   <!---<input type="button" value="Reset " onClick="onFormSubmit()" style="font-weight: bold;">  --->
+    
+    </form> 
+    
+          <table id="bloggersList">
+          <thead>
+          <tr>
+          <th></th>
+          </tr>
+          </thead>
+          <tbody class="myClass">
+
+          </tbody>
+    <!---  <textarea name="details" id="details" cols="30" rows="10">Your Text Here !!</textarea> -->
+           </table>
+        </body>
+        </html>
